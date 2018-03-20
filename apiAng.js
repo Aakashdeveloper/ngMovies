@@ -9,7 +9,7 @@ var commanRouter = express.Router();
 
 commanRouter.route('/getMovies')
     .get(function(req,res){
-    	var url ="mongodb://bbhumi:bhumika@ds145380.mlab.com:45380/evan";
+    	var url ="mongodb://XXXXXXXXXXXXXXXX";
     	mongodb.connect(url, (err, db) => {
 			  if (err) {
 			    return console.log(err);
